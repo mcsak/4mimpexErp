@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F951C96C-884B-473B-85D4-0A611B2FE08A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FourMImpex</RootNamespace>
+    <AssemblyName>FourMImpex</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarCodeGenerator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\BarCodeGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.0.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Brand.aspx" />
+    <Content Include="Admin\BrandGrid.aspx" />
+    <Content Include="Admin\Customers.aspx" />
+    <Content Include="Admin\CustomersGrid.aspx" />
+    <Content Include="Admin\Model.aspx" />
+    <Content Include="Admin\ModelGrid.aspx" />
+    <Content Include="Admin\Product.aspx" />
+    <Content Include="Admin\ProductGrid.aspx" />
+    <Content Include="Admin\ProductPrice.aspx" />
+    <Content Include="Admin\ProductPriceGrid.aspx" />
+    <Content Include="Admin\Role.aspx" />
+    <Content Include="Admin\User.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\BarCodeGenerator.dll" />
+    <Content Include="bin\FourMImpex.dll" />
+    <Content Include="bin\FourMImpex.pdb" />
+    <Content Include="bin\FourMImpexClassLibrary.dll" />
+    <Content Include="bin\FourMImpexClassLibrary.pdb" />
+    <Content Include="bin\itextsharp.dll" />
+    <Content Include="Default.aspx" />
+    <Content Include="FourMImpex.Publish.xml" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\4M.png" />
+    <Content Include="Images\cancelsearch.png" />
+    <Content Include="Images\CloseIcon16.png" />
+    <Content Include="Images\Companylogo-old.gif" />
+    <Content Include="Images\Companylogo-rem.gif" />
+    <Content Include="Images\defaultphoto.gif" />
+    <Content Include="Images\HP.jpg" />
+    <Content Include="Images\SearchBgImage.png" />
+    <Content Include="Images\AdvanceSearchIcon.png" />
+    <Content Include="Images\searchicongrid.png" />
+    <Content Include="Images\sort_asc.gif" />
+    <Content Include="Images\sort_desc.gif" />
+    <Content Include="Products\BarcodeGenerator.aspx" />
+    <Content Include="Products\ProductSelection.aspx" />
+    <Content Include="Products\SearchResults.aspx" />
+    <Content Include="Products\SellProduct.aspx" />
+    <Content Include="Reports\CurrentStockReport.aspx" />
+    <Content Include="Reports\purchaseorderreport.aspx" />
+    <Content Include="Reports\ReceiptReport.aspx" />
+    <Content Include="Reports\SalesReceiptReport.aspx" />
+    <Content Include="Script\jquery-1.9.1.min.js" />
+    <Content Include="Script\jquery-ui.js" />
+    <Content Include="Script\jquery-ui.min.js" />
+    <Content Include="Stocks\BulkReceiptGrid.aspx" />
+    <Content Include="Stocks\ImportExportOpenStock.aspx" />
+    <Content Include="Stocks\OpenStockGrid.aspx" />
+    <Content Include="Stocks\PurchaseOrder.aspx" />
+    <Content Include="Stocks\PurchaseOrdersGrid.aspx" />
+    <Content Include="Stocks\Receipt.aspx" />
+    <Content Include="Stocks\ReceiptsGrid.aspx" />
+    <Content Include="Stocks\ReturnedStocks.aspx" />
+    <Content Include="Stocks\ReturnedStocksGrid.aspx" />
+    <Content Include="Style\Admin.css" />
+    <Content Include="Style\Common.css" />
+    <Content Include="Style\Footer.css" />
+    <Content Include="Style\Login.css" />
+    <Content Include="Style\Modelling.css" />
+    <Content Include="UC\Banner.ascx" />
+    <Content Include="UC\PageMessageLatest.ascx" />
+    <Content Include="UC\Footer.ascx" />
+    <Content Include="UC\PageMessage.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Welcome.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Brand.aspx.cs">
+      <DependentUpon>Brand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Brand.aspx.designer.cs">
+      <DependentUpon>Brand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BrandGrid.aspx.cs">
+      <DependentUpon>BrandGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BrandGrid.aspx.designer.cs">
+      <DependentUpon>BrandGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Customers.aspx.cs">
+      <DependentUpon>Customers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Customers.aspx.designer.cs">
+      <DependentUpon>Customers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CustomersGrid.aspx.cs">
+      <DependentUpon>CustomersGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CustomersGrid.aspx.designer.cs">
+      <DependentUpon>CustomersGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Model.aspx.cs">
+      <DependentUpon>Model.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Model.aspx.designer.cs">
+      <DependentUpon>Model.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ModelGrid.aspx.cs">
+      <DependentUpon>ModelGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ModelGrid.aspx.designer.cs">
+      <DependentUpon>ModelGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ProductGrid.aspx.cs">
+      <DependentUpon>ProductGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ProductGrid.aspx.designer.cs">
+      <DependentUpon>ProductGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ProductPrice.aspx.cs">
+      <DependentUpon>ProductPrice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ProductPrice.aspx.designer.cs">
+      <DependentUpon>ProductPrice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ProductPriceGrid.aspx.cs">
+      <DependentUpon>ProductPriceGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ProductPriceGrid.aspx.designer.cs">
+      <DependentUpon>ProductPriceGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Role.aspx.cs">
+      <DependentUpon>Role.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Role.aspx.designer.cs">
+      <DependentUpon>Role.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InnerMaster.Master.cs">
+      <DependentUpon>InnerMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InnerMaster.Master.designer.cs">
+      <DependentUpon>InnerMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Products\BarcodeGenerator.aspx.cs">
+      <DependentUpon>BarcodeGenerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products\BarcodeGenerator.aspx.designer.cs">
+      <DependentUpon>BarcodeGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products\ProductSelection.aspx.cs">
+      <DependentUpon>ProductSelection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products\ProductSelection.aspx.designer.cs">
+      <DependentUpon>ProductSelection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products\SearchResults.aspx.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products\SearchResults.aspx.designer.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products\SellProduct.aspx.cs">
+      <DependentUpon>SellProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products\SellProduct.aspx.designer.cs">
+      <DependentUpon>SellProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\CurrentStockReport.aspx.cs">
+      <DependentUpon>CurrentStockReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\CurrentStockReport.aspx.designer.cs">
+      <DependentUpon>CurrentStockReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\purchaseorderreport.aspx.cs">
+      <DependentUpon>purchaseorderreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\purchaseorderreport.aspx.designer.cs">
+      <DependentUpon>purchaseorderreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReceiptReport.aspx.cs">
+      <DependentUpon>ReceiptReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReceiptReport.aspx.designer.cs">
+      <DependentUpon>ReceiptReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SalesReceiptReport.aspx.cs">
+      <DependentUpon>SalesReceiptReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\SalesReceiptReport.aspx.designer.cs">
+      <DependentUpon>SalesReceiptReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks\BulkReceiptGrid.aspx.cs">
+      <DependentUpon>BulkReceiptGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stocks\BulkReceiptGrid.aspx.designer.cs">
+      <DependentUpon>BulkReceiptGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks\ImportExportOpenStock.aspx.cs">
+      <DependentUpon>ImportExportOpenStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stocks\ImportExportOpenStock.aspx.designer.cs">
+      <DependentUpon>ImportExportOpenStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks\OpenStockGrid.aspx.cs">
+      <DependentUpon>OpenStockGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stocks\OpenStockGrid.aspx.designer.cs">
+      <DependentUpon>OpenStockGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks\PurchaseOrder.aspx.cs">
+      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stocks\PurchaseOrder.aspx.designer.cs">
+      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks\PurchaseOrdersGrid.aspx.cs">
+      <DependentUpon>PurchaseOrdersGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stocks\PurchaseOrdersGrid.aspx.designer.cs">
+      <DependentUpon>PurchaseOrdersGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks\Receipt.aspx.cs">
+      <DependentUpon>Receipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stocks\Receipt.aspx.designer.cs">
+      <DependentUpon>Receipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks\ReceiptsGrid.aspx.cs">
+      <DependentUpon>ReceiptsGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stocks\ReceiptsGrid.aspx.designer.cs">
+      <DependentUpon>ReceiptsGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks\ReturnedStocks.aspx.cs">
+      <DependentUpon>ReturnedStocks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stocks\ReturnedStocks.aspx.designer.cs">
+      <DependentUpon>ReturnedStocks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks\ReturnedStocksGrid.aspx.cs">
+      <DependentUpon>ReturnedStocksGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stocks\ReturnedStocksGrid.aspx.designer.cs">
+      <DependentUpon>ReturnedStocksGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Banner.ascx.cs">
+      <DependentUpon>Banner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC\Banner.ascx.designer.cs">
+      <DependentUpon>Banner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\PageMessageLatest.ascx.cs">
+      <DependentUpon>PageMessageLatest.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC\PageMessageLatest.ascx.designer.cs">
+      <DependentUpon>PageMessageLatest.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\PageMessage.ascx.cs">
+      <DependentUpon>PageMessage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC\PageMessage.ascx.designer.cs">
+      <DependentUpon>PageMessage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Stocks\temp\" />
+    <Folder Include="Temp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="InnerMaster.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FourMImpexClassLibrary\FourMImpexClassLibrary.csproj">
+      <Project>{7DE8AF1F-8DAB-464D-8EC4-FABA95FD1294}</Project>
+      <Name>FourMImpexClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Skin\Skin.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\cs.pubxml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64747</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

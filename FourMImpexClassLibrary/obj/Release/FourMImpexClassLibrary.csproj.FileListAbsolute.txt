@@ -1,0 +1,4 @@
+D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpexClassLibrary\bin\Release\FourMImpexClassLibrary.dll
+D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpexClassLibrary\bin\Release\FourMImpexClassLibrary.pdb
+D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpexClassLibrary\obj\Release\FourMImpexClassLibrary.dll
+D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpexClassLibrary\obj\Release\FourMImpexClassLibrary.pdb

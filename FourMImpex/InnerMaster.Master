@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="InnerMaster.master.cs" Inherits="FourMImpex.InnerMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="Style/Common.css" rel="stylesheet" type="text/css" />
+    <link href="Style/Footer.css" rel="Stylesheet" type="text/css" />
+    
+    <script language="javascript" type="text/javascript" src="Script/jquery-1.9.1.min.js"></script>
+    <script language="javascript" type="text/javascript" >
+//        $('#imgInfoClose').click(function () {
+//            debugger;
+//            $('.pagemessagecontainer').css({ 'display': 'none' });
+//        });
+//        $('#imgWarClose').click(function () {
+//            $('.pagemessagecontainer').css({ 'display': 'none' });
+//        });
+//        $('#imgErrClose').click(function () {
+//            $('.pagemessagecontainer').css({ 'display': 'none' });
+//        });
+//        $('#imgSucClose').click(function () {
+//            $('.pagemessagecontainer').css({ 'display': 'none' });
+//        });
+    </script>
+
+
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptMgr" runat="server" EnablePartialRendering="true" EnablePageMethods="true">
+    </asp:ScriptManager>
+    <div class="maincontainer">
+        <div class="maininnercontainer">
+            <div class="bannermaincontainer">
+                <UC:Banner ID="banner" runat="server"></UC:Banner>
+            </div>
+            <div class="mainbodycontainer">
+            <asp:UpdatePanel ID="updpnlMaster" runat="server" UpdateMode="Conditional">
+            <ContentTemplate>
+             <uc:PageMessage ID="PageMessage" runat="server"></uc:PageMessage> 
+             <UC:PageMessageLatest ID="PageMessageLatest" runat="server" /> 
+            </ContentTemplate>
+            <Triggers>
+            <asp:AsyncPostBackTrigger ControlID="PageMessage" />
+            <asp:AsyncPostBackTrigger ControlID="PageMessageLatest" />
+            </Triggers>
+            </asp:UpdatePanel>                            
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="footermaincontainer">
+            <UC:Footer ID="footer" runat="server"></UC:Footer>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

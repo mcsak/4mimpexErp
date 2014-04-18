@@ -1,0 +1,5 @@
+D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpexClassLibrary\bin\Debug\FourMImpexClassLibrary.dll
+D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpexClassLibrary\bin\Debug\FourMImpexClassLibrary.pdb
+D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpexClassLibrary\obj\Debug\FourMImpexClassLibrary.dll
+D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpexClassLibrary\obj\Debug\FourMImpexClassLibrary.pdb
+D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpexClassLibrary\obj\Debug\FourMImpexClassLibrary.csprojResolveAssemblyReference.cache
