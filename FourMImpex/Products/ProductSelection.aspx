@@ -22,7 +22,7 @@
   <ContentTemplate>
   
     <div class="centeroutercontainer">
-    
+    <%--Product grouping designs--%>
     <div style="width:100%;">
         <div class="headercontent">
             Product Selection</div>
@@ -56,8 +56,11 @@
                 </asp:Panel>
             </div>
             </div>
+
+            <div class="SeperatorDiv"></div>
+
             <asp:Panel ID="PnlCustomerDeatails" runat="server" >
-            <div style="width:1000px;" id="DivCustomereatails">
+            <div style="width:1000px; min-height:20px;" id="DivCustomereatails">
         <div class="headercontent">
            Customer Details</div>
            <br />
@@ -106,6 +109,7 @@
            <%--<div class="divSeperator"></div>--%>
            </div>
            </asp:Panel>
+           <div class="SeperatorDiv"></div>
            <br />
            <div style="width:100%"><br /></div>
          <div class="headercontent">

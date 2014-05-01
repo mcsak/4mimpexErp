@@ -1,7 +1,7 @@
-D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpex\bin\FourMImpex.dll
-D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpex\bin\FourMImpex.pdb
-D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpex\bin\FourMImpexClassLibrary.dll
-D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpex\bin\FourMImpexClassLibrary.pdb
-D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpex\obj\Debug\FourMImpex.csprojResolveAssemblyReference.cache
-D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpex\obj\Debug\FourMImpex.dll
-D:\Projects\CS_TFS\FourMImpexERP\V1\Source\FourMImpex\obj\Debug\FourMImpex.pdb
+D:\Projects\Github\4mimpexERP\FourMImpex\bin\FourMImpex.dll
+D:\Projects\Github\4mimpexERP\FourMImpex\bin\FourMImpex.pdb
+D:\Projects\Github\4mimpexERP\FourMImpex\bin\FourMImpexClassLibrary.dll
+D:\Projects\Github\4mimpexERP\FourMImpex\bin\FourMImpexClassLibrary.pdb
+D:\Projects\Github\4mimpexERP\FourMImpex\obj\Debug\FourMImpex.csprojResolveAssemblyReference.cache
+D:\Projects\Github\4mimpexERP\FourMImpex\obj\Debug\FourMImpex.dll
+D:\Projects\Github\4mimpexERP\FourMImpex\obj\Debug\FourMImpex.pdb

@@ -62,5 +62,15 @@ namespace FourMImpexClass.DAL
             return data.SelectDataFromDB(sqlcmd);
         }
 
+        public DataSet GetStockDetailsForReturnedQty(byte Type, string EntityID)
+        {
+            SqlCommand sqlcmd = new SqlCommand();
+            sqlcmd.Parameters.Add("@Type", SqlDbType.TinyInt).Value = Type;
+            sqlcmd.Parameters.Add("@EntityID", SqlDbType.VarChar, 100).Value = EntityID;
+            sqlcmd.CommandType = CommandType.StoredProcedure;
+            sqlcmd.CommandText = "GetStockDetailsForReturnedQty";
+            return data.SelectDataFromDB(sqlcmd);
+        }
+
     }
 }

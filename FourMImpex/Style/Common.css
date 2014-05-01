@@ -1701,7 +1701,7 @@ adminlabelReg
 .singleitemcontainer
 {
     float:left;
-    width:200px;
+    width:190px;
     margin:20px;
 }
 .headercontent
@@ -1710,6 +1710,13 @@ adminlabelReg
     width:100%;
     text-align:center;
     font-weight:bold;
+}
+.SeperatorDiv
+{
+    width:100%;
+    border-style:inset;
+    border-width:1px;
+    border-color:Gray;
 }
 .itemheader
 {
@@ -1723,7 +1730,7 @@ adminlabelReg
 .btncellcontainer
 {
     float:right;
-    width:250px;
+    width:2px;
     margin:90px 1px 1px 1px;
 }
 .showproductdetails
@@ -1749,6 +1756,12 @@ adminlabelReg
     
 }
 .RowContainerGrid 
+{
+    width:700px;
+    height:150px;
+    padding:10px 100px 10px 100px;
+}
+.RowContainer
 {
     width:700px;
     height:150px;
@@ -1781,6 +1794,15 @@ adminlabelReg
 .StockPanelSubmit
 {
     text-align:center;
+}
+
+.ButtonsAtBottomBar
+{
+    float:left;
+    width:98%;
+    margin:10px 10px 10px 10px;
+    margin-bottom:5px;
+    font-weight:bold;
 }
 /****************************************Grid Dashboard Style*********************************/
 

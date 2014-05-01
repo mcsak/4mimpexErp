@@ -5,16 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourMImpex", "FourMImpex\Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourMImpexClassLibrary", "FourMImpexClassLibrary\FourMImpexClassLibrary.csproj", "{7DE8AF1F-8DAB-464D-8EC4-FABA95FD1294}"
 EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "DatabaseLibrary", "DatabaseLibrary\DatabaseLibrary.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://cs-pc:8080/tfs/cs-collections
-		SccProjectUniqueName0 = FourMImpex\\FourMImpex.csproj
-		SccProjectName0 = FourMImpex
-		SccLocalPath0 = FourMImpex
-		SccLocalPath1 = .
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -28,6 +21,12 @@ Global
 		{7DE8AF1F-8DAB-464D-8EC4-FABA95FD1294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DE8AF1F-8DAB-464D-8EC4-FABA95FD1294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DE8AF1F-8DAB-464D-8EC4-FABA95FD1294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

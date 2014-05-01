@@ -99,11 +99,13 @@
     <Content Include="Images\sort_desc.gif" />
     <Content Include="Products\BarcodeGenerator.aspx" />
     <Content Include="Products\ProductSelection.aspx" />
+    <Content Include="Products\ReturnsFromSales.aspx" />
     <Content Include="Products\SearchResults.aspx" />
     <Content Include="Products\SellProduct.aspx" />
     <Content Include="Reports\CurrentStockReport.aspx" />
     <Content Include="Reports\purchaseorderreport.aspx" />
     <Content Include="Reports\ReceiptReport.aspx" />
+    <Content Include="Reports\ReturnsFromSalesReports.aspx" />
     <Content Include="Reports\SalesReceiptReport.aspx" />
     <Content Include="Script\jquery-1.9.1.min.js" />
     <Content Include="Script\jquery-ui.js" />
@@ -253,6 +255,13 @@
     <Compile Include="Products\ProductSelection.aspx.designer.cs">
       <DependentUpon>ProductSelection.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Products\ReturnsFromSales.aspx.cs">
+      <DependentUpon>ReturnsFromSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products\ReturnsFromSales.aspx.designer.cs">
+      <DependentUpon>ReturnsFromSales.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Products\SearchResults.aspx.cs">
       <DependentUpon>SearchResults.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -288,6 +297,13 @@
     </Compile>
     <Compile Include="Reports\ReceiptReport.aspx.designer.cs">
       <DependentUpon>ReceiptReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReturnsFromSalesReports.aspx.cs">
+      <DependentUpon>ReturnsFromSalesReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReturnsFromSalesReports.aspx.designer.cs">
+      <DependentUpon>ReturnsFromSalesReports.aspx</DependentUpon>
     </Compile>
     <Compile Include="Reports\SalesReceiptReport.aspx.cs">
       <DependentUpon>SalesReceiptReport.aspx</DependentUpon>

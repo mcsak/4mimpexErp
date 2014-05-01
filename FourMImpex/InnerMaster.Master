@@ -8,7 +8,7 @@
     <link href="Style/Common.css" rel="stylesheet" type="text/css" />
     <link href="Style/Footer.css" rel="Stylesheet" type="text/css" />
     
-    <script language="javascript" type="text/javascript" src="Script/jquery-1.9.1.min.js"></script>
+    <script language="javascript" type="text/javascript" src="../Script/jquery-1.9.1.min.js"></script>
     <script language="javascript" type="text/javascript" >
 //        $('#imgInfoClose').click(function () {
 //            debugger;
