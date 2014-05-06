@@ -1,0 +1,8 @@
+D:\Projects\Github\4mimpexERP\DatabaseLibrary\sql\release\DatabaseLibrary.deploymanifest
+D:\Projects\Github\4mimpexERP\DatabaseLibrary\sql\release\DatabaseLibrary.dbschema
+D:\Projects\Github\4mimpexERP\DatabaseLibrary\obj\Release\DatabaseLibrary.dbschema
+D:\Projects\Github\4mimpexERP\DatabaseLibrary\sql\release\FourMImpex_Script.PreDeployment.sql
+D:\Projects\Github\4mimpexERP\DatabaseLibrary\sql\release\FourMImpex_Script.PostDeployment.sql
+D:\Projects\Github\4mimpexERP\DatabaseLibrary\sql\release\FourMImpex_Database.sqlsettings
+D:\Projects\Github\4mimpexERP\DatabaseLibrary\sql\release\FourMImpex_Database.sqldeployment
+D:\Projects\Github\4mimpexERP\DatabaseLibrary\sql\release\FourMImpex_Database.sqlcmdvars

@@ -1,0 +1,4 @@
+D:\Projects\Github\4mimpexERP\FourMImpexClassLibrary\bin\Release\FourMImpexClassLibrary.dll
+D:\Projects\Github\4mimpexERP\FourMImpexClassLibrary\bin\Release\FourMImpexClassLibrary.pdb
+D:\Projects\Github\4mimpexERP\FourMImpexClassLibrary\obj\Release\FourMImpexClassLibrary.dll
+D:\Projects\Github\4mimpexERP\FourMImpexClassLibrary\obj\Release\FourMImpexClassLibrary.pdb

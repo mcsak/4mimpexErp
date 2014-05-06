@@ -62,13 +62,13 @@ namespace FourMImpexClass.DAL
             return data.SelectDataFromDB(sqlcmd);
         }
 
-        public DataSet GetStockDetailsForReturnedQty(byte Type, string EntityID)
+        public DataSet GetDetailsForReturnedQty(string EntityID,byte Type)
         {
             SqlCommand sqlcmd = new SqlCommand();
             sqlcmd.Parameters.Add("@Type", SqlDbType.TinyInt).Value = Type;
             sqlcmd.Parameters.Add("@EntityID", SqlDbType.VarChar, 100).Value = EntityID;
             sqlcmd.CommandType = CommandType.StoredProcedure;
-            sqlcmd.CommandText = "GetStockDetailsForReturnedQty";
+            sqlcmd.CommandText = "GetDetailsForReturnedQty";
             return data.SelectDataFromDB(sqlcmd);
         }
 

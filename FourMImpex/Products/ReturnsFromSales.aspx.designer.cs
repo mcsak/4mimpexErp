@@ -13,6 +13,15 @@ namespace FourMImpex.Products {
     public partial class ReturnsFromSales {
         
         /// <summary>
+        /// divSearchContainer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divSearchContainer;
+        
+        /// <summary>
         /// ddlsearchby control.
         /// </summary>
         /// <remarks>

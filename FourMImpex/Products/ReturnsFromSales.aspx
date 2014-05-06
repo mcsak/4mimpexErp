@@ -6,8 +6,8 @@
            Product Details</div>
          <div class="adminpagegridcontainer">
 
-            <div style="padding:10px 100px 10px 100px;width:700px;">
-                <div class="admingridsearchcontainer">
+            <div style="padding:20px">
+                <div class="admingridsearchcontainer" id="divSearchContainer" runat="server">
                     <div class="pro_ddl_search">
                         <asp:DropDownList ID="ddlsearchby" runat="server" SkinID="CommonSearchBy" TabIndex="1">
                         <asp:ListItem Text="--Select--" Value="0" Selected="True"></asp:ListItem>
@@ -34,7 +34,7 @@
                             OnClientClick="return isRecordSelected('delete')" />--%>
                     </div>
                 </div>
-                 <asp:GridView ID="GvProductList" runat="server" AutoGenerateColumns="false" OnRowCommand="GvProductList_OnRowCommand" 
+                 <asp:GridView ID="GvProductList" runat="server" AutoGenerateColumns="false" 
                    ShowFooter="true">
                  <Columns>
                  
@@ -47,6 +47,7 @@
                  <asp:BoundField DataField="BrandName" HeaderText="Brand" />
                  <asp:BoundField DataField="ModelName" HeaderText="Model" />
                  <asp:BoundField DataField="AvailableStock" HeaderText="Available Stock" />
+                 <asp:BoundField DataField="Barcode" HeaderText="Barcode" />
                  <asp:TemplateField >
                  <HeaderTemplate> <asp:Label ID="gvlblReturnQty" runat="server" Text="Return Qty."></asp:Label></HeaderTemplate>
                  <ItemTemplate>

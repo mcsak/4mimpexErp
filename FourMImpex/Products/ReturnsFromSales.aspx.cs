@@ -14,9 +14,16 @@ namespace FourMImpex.Products
     {
         ProductsD Products_D = new ProductsD();
         DataSet Ds = new DataSet();
+        string LoadID, LoadValue;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            LoadID = Request.QueryString[0];
+            LoadValue = Request.QueryString[1];
+            if (LoadID == "21")
+            {
+                divSearchContainer.Visible = false;
+                PageBind(LoadValue, 1);
+            }
         }
 
         protected void imgSearch_Click(object sender, ImageClickEventArgs e)
@@ -26,7 +33,7 @@ namespace FourMImpex.Products
 
         protected void PageBind(String EntityID,byte Type=0)
         {
-            Ds= Products_D.GetStockDetailsForReturnedQty(Type,EntityID);
+            Ds= Products_D.GetDetailsForReturnedQty(EntityID,Type);
             if (Ds != null)
                 if (Ds.Tables.Count > 0)
                     if (Ds.Tables[0].Rows.Count > 0)
@@ -40,6 +47,21 @@ namespace FourMImpex.Products
                     PageMessageUpdate(4);
             else
                 PageMessageUpdate(4);
+        }
+
+        protected void gvtxtQty_OnTextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void gvtxtPrice_OnTextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void GvProductList_OnRowCommand(object sender, GridViewRowEventArgs Re)
+        {
+
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)

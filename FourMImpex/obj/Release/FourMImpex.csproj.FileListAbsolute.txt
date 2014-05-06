@@ -1,0 +1,7 @@
+D:\Projects\Github\4mimpexERP\FourMImpex\bin\FourMImpex.dll
+D:\Projects\Github\4mimpexERP\FourMImpex\bin\FourMImpex.pdb
+D:\Projects\Github\4mimpexERP\FourMImpex\bin\FourMImpexClassLibrary.dll
+D:\Projects\Github\4mimpexERP\FourMImpex\bin\FourMImpexClassLibrary.pdb
+D:\Projects\Github\4mimpexERP\FourMImpex\obj\Release\FourMImpex.csprojResolveAssemblyReference.cache
+D:\Projects\Github\4mimpexERP\FourMImpex\obj\Release\FourMImpex.dll
+D:\Projects\Github\4mimpexERP\FourMImpex\obj\Release\FourMImpex.pdb
